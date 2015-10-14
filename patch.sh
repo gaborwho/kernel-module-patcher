@@ -21,7 +21,7 @@ get_source()
 	if [ ! -d "$SOURCEDIR" ]; then
 	
 		mkdir -p "$SOURCEDIR"
-		cd "$SOUCEDIR"
+		cd "$SOURCEDIR"
 		apt-get source "linux-image-$KERNEL_RELEASE"
 		cd -
 	
